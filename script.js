@@ -46,7 +46,7 @@ gsap.from("#page3 img", {
     scrollTrigger: {
         trigger: '#page3 img',
         scroller: '#main',
-        markers: true,
+        // markers: true,
         scrub: 2,
         start: "top 50%",
         end: "top 0%"
@@ -59,7 +59,7 @@ gsap.from('#page4 h2', {
     scrollTrigger: {
         trigger: '#page4 h2',
         scroller: '#main',
-        markers: true,
+        // markers: true,
         scrub: 2,
     }
 })
