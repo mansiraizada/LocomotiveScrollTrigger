@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(193, 98, 50, 0.751);
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(129, 57, 21, 0.751);
+}
+#page3{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(91, 34, 9, 0.751);
+}
+#page4{
+    height: fit-content;
+    width: 100%;
+    background-color: rgba(61, 21, 3, 0.751);
+}
+#page2 img{
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page1 h1{
+    font-size: 10vw;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+}
+#page3 img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 30% 0%;
+}
+#page4 h2{
+    text-transform: uppercase;
+    font-size: 5vw;
+    text-align: center;
+    left: 50%;
+    position: relative;
+    transform: translatex(-50%);
+}
